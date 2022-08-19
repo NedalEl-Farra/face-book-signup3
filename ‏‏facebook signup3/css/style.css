@@ -1,0 +1,89 @@
+/*start global css*/
+a{
+	text-decoration:none;
+
+	
+}
+
+.clear{
+	clear:both;
+}
+ul{
+	list-style-type:none;
+	display:block;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+/*end global css*/
+fieldset{
+	width:350px;
+	height:450px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	padding:10px;
+	
+	
+	color:white;
+	background-color:#908282;
+	font-weight:bold;
+	
+}
+  legend{
+	text-align:center;
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	background-color:white;
+	border:1px solid blue;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+	
+	
+	
+}
+input{
+	width:350px;
+	height:100px;
+	border-bottom:3px solid white;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	margin-bottom:10px;
+	background-color:#908282;
+	line-height:50px;
+}
+button{
+	width:350px;
+	height:50px;
+	border-radius:20px;
+	background-color:blue;
+	color:white;
+	font-weight:bold;
+	font-size:16px;
+	margin-bottom:10px;
+	
+	
+}
+h1{
+	text-align:center;
+	
+}
+label{
+	font-weight:bold;
+	font-size:20px;
+}
+i{
+	color:blue;
+	font-size:30px;
+	
+	}
